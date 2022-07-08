@@ -245,8 +245,8 @@ async def telegraph_upload(bot, update):
             [
                 [
                     InlineKeyboardButton(text="Open Link🔗", url=f"https://telegra.ph{response[0]}"),
-                    InlineKeyboardButton(text="Share Link🎁", url=f"https://t.me/share/url?url=https://telegra.ph{response[0]}")
-		    InlineKeyboardButton(text="☘️Join With Us", url=f"https://t.me/szteambots")
+                    InlineKeyboardButton(text="Share Link🎁", url=f"https://t.me/share/url?url=https://telegra.ph{response[0]}"),
+		    InlineKeyboardButton(text="☘️Join With Us", url=f"https://t.me/szteambots"),
                 ],
                 [InlineKeyboardButton(text="⚙ Join Updates Channel ⚙", url="https://t.me/szteambots")]
             ]
